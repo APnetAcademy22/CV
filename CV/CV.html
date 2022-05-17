@@ -8,50 +8,47 @@
 </head>
 
 <body>
+    <div>
     <div class="leftDiv">
-        <div style="margin:5%">
+        <div>
             <img src="Spid.bmp" alt="Profile Picture" class="profileImg">
         </div>
-        <hr />
-        <div class="withline">
-            <h3 >Skills</h3>
+        <div class="innerDiv">
+            <div>
+                <h3 class="withline">Skills</h3class="withline">
+            </div>
+            <div style="margin:5%">
+                <div class="bar" data-skill=".net" style="--percentage:100%"></div>
+            </div>
+            <div style="margin:5%">
+                <div class="bar" data-skill="C#" style="--percentage:70%"></div>
+            </div>
+            <div style="margin:5%">
+                <div class="bar" data-skill="Swift" style="--percentage:50%"></div>
+            </div>
+            <div style="margin:5%">
+                <div class="bar" data-skill="Python" style="--percentage:15%;"></div>
+            </div>
         </div>
-        <div style="margin:5%">
-            <div class="bar" data-skill=".net" style="--percentage:100%"></div>
-        </div>
-        <div style="margin:5%">
-            <div class="bar" data-skill="C#" style="--percentage:70%"></div>
-        </div>
-        <div style="margin:5%">
-            <div class="bar" data-skill="Swift" style="--percentage:50%"></div>
-        </div>
-        <div style="margin:5%">
-            <div class="bar" data-skill="Python" style="--percentage:15%;"></div>
-        </div>
-
     </div>
     <div class="rightDiv">
-        <div style="background:DarkGreen; height:100%">
-            <div>
-                <div class="withline">
-                    <h1>Peter Parker</h1>
-                </div>
+        <div style="background: #01870cd7; height:100%">
+            <div class="innerDiv">
+                <h1 class="withline">Peter Parker</h1>
                 <h3> Expert web developer and hungry bug hunter</h3>
             </div>
-            <div>
-                <div class="withline">
-                    <h3 >Contacts</h3>
-                </div>
-                
-                <div style="float:left">
+            <div class="innerDiv">
+                <h4 class="withline">Contacts</h4>
+                 
+                <div style="float:left;">
                     email: peter@spiders.net
                 </div>
-                <div style="text-align:right; float;right;">
+                <div style="text-align: right; float; right; ">
                     address: Mirkwood Tree 8, 29132, Middle Earth
                 </div>
             </div>
         </div>
-        <div>
+        <div class="innerDiv">
             <h2>About me</h2>
             <p>
                 I was born not so long ago, and since I was born I've had this passion for the web.
@@ -128,6 +125,6 @@
         </div>  
         <p id="signature">Peter Parker</p>
     </div>
-  
+    </div>
 </body>
 </html>

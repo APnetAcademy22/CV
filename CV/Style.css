@@ -5,18 +5,24 @@
     height: 100%;
     width: 20%;
     float: left;
-    background: #390505e4;
+    background: #b55605ce;
 }
 .rightDiv {
-    width: 70%; 
-    float:left; 
-    height:100%;
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+
+.innerDiv{
+    margin: 2vw;
 }
 
 .profileImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
     width: 80%;
     text-align: center;
     border-radius: 40%;
@@ -44,29 +50,26 @@ table tbody tr:nth-child(odd){
     background:#0a9396
 }
 thead tr:first-child{
-    background; #005f72;
+    background: #005f72;
 }
 thead tr:nth-child(2){
-    background: # ee9b00
+    background: #ee9b00
 }
 table tbody tr:nth-child(even){
     background:#94d2bd
 }
 
-@font-face {
-    font-family: signature;
-    src: local(C:\Users\student\Downloads\balcony\Balcony.ttf);
-}
+
 #signature {
     width: 100%;
     text-align: right;
     font-size: 2em;
-    font-family: signature, sans-serif, serif;
+    font-family: cursive, sans-serif, serif;
 }
 
-#withline::after{
+.withline::after{
     content: "";
     display: block;
-    width: 95%;
-    border-bottom: 4px solid black;
+    width: 100%;
+    border-bottom: 2px solid white;
 }
