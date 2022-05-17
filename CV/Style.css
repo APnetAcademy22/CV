@@ -1,6 +1,40 @@
+
 .profileImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%; 
+    text-align:center
+}
+
+.bar::before{
+    content: attr(data-skill);
+    padding-left:5px;
+
+    display: inline-block;
+    border-radius: inherit;
+
+    background-color: aquamarine;
+    width: var(--percentage)
+}
+
+
+thead tr td:first-child, thead tr th:first-child{
+    background: white;
+    border: none;
+}
+table thead tr th{
+    background: lightgreen;
+}
+table tbody tr:nth-child(odd){
+    background:#0a9396
+}
+thead tr:first-child{
+    background; #005f72;
+}
+thead tr:nth-child(2){
+    background: # ee9b00
+}
+table tbody tr:nth-child(even){
+    background:#94d2bd
 }
