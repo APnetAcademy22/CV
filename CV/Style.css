@@ -1,11 +1,18 @@
-
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0px;
+}
 
 
 .leftDiv {
-    height: 100%;
+    height: 100vh;
     width: 20%;
     float: left;
     background: #b55605ce;
+    display: flex;
+    flex-flow: column;
 }
 .rightDiv {
     width: 70%;
@@ -15,6 +22,7 @@
 
 .innerDiv{
     margin: 2vw;
+    margin-top: 0px;
 }
 
 .profileImg {
@@ -67,9 +75,14 @@ table tbody tr:nth-child(even){
     font-family: cursive, sans-serif, serif;
 }
 
-.withline::after{
+.withline {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.withline::after {
     content: "";
     display: block;
     width: 100%;
     border-bottom: 2px solid white;
+    margin:0;
 }
