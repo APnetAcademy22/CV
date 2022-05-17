@@ -8,10 +8,14 @@
 </head>
 
 <body>
-    <div style="width: 20%; float:left; height:100%; background:#321414;">
-        <img src="Spid.bmp" alt="Profile Picture" class="profileImg">
+    <div class="leftDiv">
+        <div style="margin:5%">
+            <img src="Spid.bmp" alt="Profile Picture" class="profileImg">
+        </div>
         <hr />
-        <h3>Skills</h3>
+        <div class="withline">
+            <h3 >Skills</h3>
+        </div>
         <div style="margin:5%">
             <div class="bar" data-skill=".net" style="--percentage:100%"></div>
         </div>
@@ -26,34 +30,37 @@
         </div>
 
     </div>
-    <div style="width: 70%; float:left; height:100%;">
-        <div style="width: 70%; float:left; background:DarkGreen;">
+    <div class="rightDiv">
+        <div style="background:DarkGreen; height:100%">
             <div>
-                <h1> Peter Parker</h1>
-                <hr />
+                <div class="withline">
+                    <h1>Peter Parker</h1>
+                </div>
                 <h3> Expert web developer and hungry bug hunter</h3>
             </div>
             <div>
-                Contacts
-                <hr />
-                <div style="width: 50%; float:left;">
+                <div class="withline">
+                    <h3 >Contacts</h3>
+                </div>
+                
+                <div style="float:left">
                     email: peter@spiders.net
                 </div>
-                <div style="width: 50%; float:right;">
+                <div style="text-align:right; float;right;">
                     address: Mirkwood Tree 8, 29132, Middle Earth
                 </div>
             </div>
         </div>
-        <div style="width: 70%; float:left; height:100px;">
+        <div>
             <h2>About me</h2>
             <p>
-                I was born not so long ago, and since I was born I've had this passion for the web. 
+                I was born not so long ago, and since I was born I've had this passion for the web.
                 I like developing all day long, and the more the web expands, the happier I am.
             <p>
             <p>
-                One of the things I like most of web developing is bug hunting. 
+                One of the things I like most of web developing is bug hunting.
                 I find strange that many people don't like bug hunting, and on the contrary they try to avoid them at all costs.
-                Bug hunting is so rewarding and I'm so happy when i find a big juicy bug in my .net. 
+                Bug hunting is so rewarding and I'm so happy when i find a big juicy bug in my .net.
                 I try to develop carefully in order to have the biggest possible bugs, but not big enough to destroy all my hard work.
             </p>
             <p>
@@ -83,42 +90,44 @@
                         <th> </th>
                     </tr>
                 </thead>
-                    <tbody>
-                        <tr>
-                            <td> Spidernish </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                        </tr>
-                        <tr>
-                            <td> Spiderglish </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                            <td> C2 Proficient </td>
-                        </tr>
-                        <tr>
-                            <td> Spiderussian </td>
-                            <td> A2 Basic </td>
-                            <td> A2 Basic </td>
-                            <td> I don't speak with them </td>
-                            <td> They don't listen to me </td>
-                            <td> A2 Basic </td>
-                        </tr>
-                    </tbody>
+                <tbody>
+                    <tr>
+                        <td> Spidernish </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                    </tr>
+                    <tr>
+                        <td> Spiderglish </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                        <td> C2 Proficient </td>
+                    </tr>
+                    <tr>
+                        <td> Spiderussian </td>
+                        <td> A2 Basic </td>
+                        <td> A2 Basic </td>
+                        <td> I don't speak with them </td>
+                        <td> They don't listen to me </td>
+                        <td> A2 Basic </td>
+                    </tr>
+                </tbody>
             </table>
             <h2>Treatment of personal data</h2>
             <p>
                 In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I am a spider.
-                I therefore don't really have any legal rights over my personal data. 
+                I therefore don't really have any legal rights over my personal data.
                 I'm also supposed to have no personal data by the way, but since I never went to law school, I don't know that and I have personal data anyway.
                 Please treat my data kindly since, as you might have guessed, I can't take any legal action if you don't,
                 but I'll still be very angry with you.
             </p>
-        </div>
+        </div>  
+        <p id="signature">Peter Parker</p>
     </div>
+  
 </body>
 </html>
